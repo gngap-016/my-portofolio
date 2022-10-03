@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Gilang Ap</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__logo">
+                    <a href="#main">Gilang Ap</a>
+                </div>
+                <button class="navbar__button open__menu__button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="navbar__menu">
+                    <button class="navbar__button close__menu__button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <li class="navbar__menu__item"><a href="#about">Tentang</a></li>
+                    <li class="navbar__menu__item"><a href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <div id="hero" class="hero">
+                <img class="hero__image" src="./assets/images/profile.jpg" alt="Profil Gilang Aji Panutan">
+                <h1 class="hero__name">Gilang Aji Panutan</h1>
+                <p class="hero__subname">M a h a s i s w a</p>
+            </div>
+
+            <div id="about" class="about">
+                <div class="about__content about__info">
+                    <h2>Tentang Saya</h2>
+                    <p>
+                        Mahasiswa Universitas Teknokrat Indonesia, Fakultas Teknik dan ilmu Komputer,
+                        Jurusan Informatika.
+                    </p>
+                    <p>
+                        Berusia 20 tahun, mampu bekerja secara tim maupun individu. Rajin dan ramah.
+                    </p>
+                </div>
+                <div class="about__content about__career">
+                    <div class="about__school">
+                        <h2>Riwayat Pendidikan</h2>
+                        <div class="about__school__item">
+                            <span class="about__school__item__date">
+                                <i class="fa-regular fa-circle-dot"></i> 2017 - 2020
+                            </span>
+                            <h3>SMK Negeri 1 Braja Selebah</h3>
+                            <p>Teknik Komputer dan Jaringan</p>
+                        </div>
+                        <div class="about__school__item">
+                            <span class="about__school__item__date">
+                                <i class="fa-regular fa-circle-dot"></i> 2020 - Sekarang
+                            </span>
+                            <h3>Universitas Teknokrat Indonesia</h3>
+                            <p>Informatika</p>
+                        </div>
+                    </div>
+                    <div class="about__school">
+                        <h2>Pengalaman Magang</h2>
+                        <div class="about__school__item">
+                            <span class="about__school__item__date">
+                                <i class="fa-regular fa-circle-dot"></i> 2018
+                            </span>
+                            <h3>LPK FARAFI</h3>
+                            <p>Kota Metro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <h2>Sertifikat</h2>
+                    <div class="about__archive">
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/lks.jpg" alt="Juara 2 LKS Tingkat Kabupaten Lampung Timur">
+                            <p>Juara 2 LKS Tingkat Kabupaten Lampung Timur</p>
+                        </div>
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/logika-pemrog.jpg" alt="Sertifikat Logika Pemrograman">
+                            <p>Pengenalan Logika Pemrograman</p>
+                        </div>
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/das-pemrog-software.jpg" alt="Sertifikat Dasar Menjadi Pengembang Software">
+                            <p>Dasar Menjadi Pengembang Software</p>
+                        </div>
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/fun-fe-wd.jpg" alt="Sertifikat Fundamental Front-End Web Development">
+                            <p>Fundamental Front-End Web Development</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact" class="contact">
+                <h2>Kontak</h2>
+                <div class="contact__item contact__phone">
+                    <i class="fa-solid fa-phone"></i> +62 852 6319 3452
+                </div>
+                <div class="contact__item contact__mail">
+                    <i class="fa-solid fa-at"></i> <a href="mailto:gilang_aji_panutan@teknokrat.ac.id"> gilang_aji_panutan@teknokrat.ac.id</a>
+                </div>
+                <div class="contact__item contact__address">
+                    <i class="fa-solid fa-location-dot"></i> Sepang Jaya, Labuhan Ratu, Bandar Lampung
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2022 - Gilang Aji Panutan</p>
+        </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
