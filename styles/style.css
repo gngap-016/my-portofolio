@@ -193,6 +193,13 @@ main {
 .about__info p {
     padding: 0 12px;
 }
+
+.about__info video {
+    margin: 12px auto 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 400px;
+}
 /* End Info */
 
 /* Archive */
