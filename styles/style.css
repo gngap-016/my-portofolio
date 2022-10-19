@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -35,6 +39,10 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 0 12px;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 /* End Master */
 
@@ -166,7 +174,7 @@ main {
 /* End Hero */
 
 .about__content {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 /* Info */
 .about__info {
@@ -187,30 +195,6 @@ main {
 }
 /* End Info */
 
-/* Career */
-.about__career {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0 16px;
-}
-/* End Career */
-
-/* School */
-.about__school__item {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.about__school__item .about__school__item__date {
-    color: #007bff;
-    font-weight: 700;
-}
-
-.about__school__item h3, .about__school__item p{
-    margin-left: 20px;
-}
-/* End School */
-
 /* Archive */
 .about__archive {
     margin-top: 8px;
@@ -221,30 +205,46 @@ main {
 }
 
 .about__archive__item {
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 1px 20px #63636337;
     overflow: hidden;
+    padding: 12px;
 }
 
 .about__archive__item .about__archive__item__image {
     width: 100%;
     transition: all .3s ease;
+    border-radius: 8px;
 }
-
+/* 
 .about__archive__item .about__archive__item__image:hover {
     transform: scale(1.05);
+} */
+
+.about__archive__item .about__archive__item__desc h4 {
+    color: #636363;
 }
 
 .about__archive__item p {
     font-weight: 500;
-    text-align: center;
-    padding: 12px 0;
+    /* text-align: center; */
+    padding: 4px 0;
+}
+
+.about__archive__item .button_see_site {
+    margin-top: 20px;
+    text-decoration: none;
+    float: right;
+    background-color: #636363;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #f1f1f1;
 }
 /* End Archive */
 
 /* Contact */
 .contact {
-    margin-top: 40px;
+    margin-top: 100px;
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
 }
@@ -259,14 +259,14 @@ main {
     margin-top: 12px;
     padding: 0 12px;
 
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .contact__item i {
     color: #007bff;
 }
 
-.contact .contact__mail a {
+.contact .contact__item a {
     color: black;
     text-decoration: none;
 }

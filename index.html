@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="shortcut icon" href="assets/images/profile.jpg" type="image/x-icon">
+
     <title>Gilang Ap</title>
 </head>
 <body>
@@ -25,7 +27,7 @@
                     <button class="navbar__button close__menu__button">
                         <i class="fas fa-times"></i>
                     </button>
-                    <li class="navbar__menu__item"><a href="#about">Tentang</a></li>
+                    <li class="navbar__menu__item"><a href="#about">Tentang Saya</a></li>
                     <li class="navbar__menu__item"><a href="#contact">Kontak</a></li>
                 </ul>
             </div>
@@ -37,11 +39,11 @@
             <div id="hero" class="hero">
                 <img class="hero__image" src="./assets/images/profile.jpg" alt="Profil Gilang Aji Panutan">
                 <h1 class="hero__name">Gilang Aji Panutan</h1>
-                <p class="hero__subname">M a h a s i s w a</p>
+                <p class="hero__subname">2 0 3 1 2 0 3 9</p>
             </div>
 
             <div id="about" class="about">
-                <div class="about__content about__info">
+                <div class="about__info">
                     <h2>Tentang Saya</h2>
                     <p>
                         Mahasiswa Universitas Teknokrat Indonesia, Fakultas Teknik dan ilmu Komputer,
@@ -51,53 +53,66 @@
                         Berusia 20 tahun, mampu bekerja secara tim maupun individu. Rajin dan ramah.
                     </p>
                 </div>
-                <div class="about__content about__career">
-                    <div class="about__school">
-                        <h2>Riwayat Pendidikan</h2>
-                        <div class="about__school__item">
-                            <span class="about__school__item__date">
-                                <i class="fa-regular fa-circle-dot"></i> 2017 - 2020
-                            </span>
-                            <h3>SMK Negeri 1 Braja Selebah</h3>
-                            <p>Teknik Komputer dan Jaringan</p>
+                <div class="about__content">
+                    <h2>Riwayat Pelatihan</h2>
+                    <div class="about__archive">
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/logika-pemrog.jpg" alt="Sertifikat Logika Pemrograman">
+                            <div class="about__archive__item__desc">
+                                <h3>Pengenalan Logika Pemrograman</h3>
+                                <p>Dicoding</p>
+                                <h4>2022</h4>
+                            </div>
                         </div>
-                        <div class="about__school__item">
-                            <span class="about__school__item__date">
-                                <i class="fa-regular fa-circle-dot"></i> 2020 - Sekarang
-                            </span>
-                            <h3>Universitas Teknokrat Indonesia</h3>
-                            <p>Informatika</p>
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/das-pemrog-software.jpg" alt="Sertifikat Dasar Menjadi Pengembang Software">
+                            <div class="about__archive__item__desc">
+                                <h3>Dasar Menjadi Pengembang Software</h3>
+                                <p>Dicoding</p>
+                                <h4>2022</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="about__school">
-                        <h2>Pengalaman Magang</h2>
-                        <div class="about__school__item">
-                            <span class="about__school__item__date">
-                                <i class="fa-regular fa-circle-dot"></i> 2018
-                            </span>
-                            <h3>LPK FARAFI</h3>
-                            <p>Kota Metro</p>
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/fun-fe-wd.jpg" alt="Sertifikat Fundamental Front-End Web Development">
+                            <div class="about__archive__item__desc">
+                                <h3>Fundamental Front-End Web Development</h3>
+                                <p>Dicoding</p>
+                                <h4>2022</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="about__content">
-                    <h2>Sertifikat</h2>
+                    <h2>Riwayat Mengikuti Kompetensi</h2>
                     <div class="about__archive">
                         <div class="about__archive__item">
-                            <img class="about__archive__item__image" src="./assets/images/lks.jpg" alt="Juara 2 LKS Tingkat Kabupaten Lampung Timur">
-                            <p>Juara 2 LKS Tingkat Kabupaten Lampung Timur</p>
+                            <img class="about__archive__item__image" src="./assets/images/lks.jpg" alt="Lomba Kompetensi Siswa">
+                            <div class="about__archive__item__desc">
+                                <h3>Juara 2 LKS-SMK</h3>
+                                <p>Tingkat Kabupaten Lampung Timur</p>
+                                <h4>2019</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <h2>Daftar Karya</h2>
+                    <div class="about__archive">
+                        <div class="about__archive__item">
+                            <img class="about__archive__item__image" src="./assets/images/warteg.jpg" alt="Katalog Restoran">
+                            <div class="about__archive__item__desc">
+                                <h3>Katalog Restoran</h3>
+                                <p>Membuat katalog restoran dengan API dari <a href="https://restaurant-api.dicoding.dev/" target="_blank" rel="noreferrer">Restaurant API</a></p>
+                                <a class="button_see_site" href="https://gleaming-travesseiro-af15d6.netlify.app/" target="_blank" rel="noreferrer">Lihat Situs</a>
+                            </div>
                         </div>
                         <div class="about__archive__item">
-                            <img class="about__archive__item__image" src="./assets/images/logika-pemrog.jpg" alt="Sertifikat Logika Pemrograman">
-                            <p>Pengenalan Logika Pemrograman</p>
-                        </div>
-                        <div class="about__archive__item">
-                            <img class="about__archive__item__image" src="./assets/images/das-pemrog-software.jpg" alt="Sertifikat Dasar Menjadi Pengembang Software">
-                            <p>Dasar Menjadi Pengembang Software</p>
-                        </div>
-                        <div class="about__archive__item">
-                            <img class="about__archive__item__image" src="./assets/images/fun-fe-wd.jpg" alt="Sertifikat Fundamental Front-End Web Development">
-                            <p>Fundamental Front-End Web Development</p>
+                            <img class="about__archive__item__image" src="./assets/images/movie-catalogue.jpg" alt="Katalog Film">
+                            <div class="about__archive__item__desc">
+                                <h3>Katalog Film</h3>
+                                <p>Membuat katalog film dengan API dari <a href="https://www.themoviedb.org/" target="_blank" rel="noreferrer">TMDB</a></p>
+                                <a class="button_see_site" href="https://moonlit-pika-76153f.netlify.app/" target="_blank" rel="noreferrer">Lihat Situs</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,10 +121,13 @@
             <div id="contact" class="contact">
                 <h2>Kontak</h2>
                 <div class="contact__item contact__phone">
-                    <i class="fa-solid fa-phone"></i> +62 852 6319 3452
+                    <i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/6285263193452" target="_blank" rel="noreferrer"> +62 852 6319 3452</a>
                 </div>
                 <div class="contact__item contact__mail">
-                    <i class="fa-solid fa-at"></i> <a href="mailto:gilang_aji_panutan@teknokrat.ac.id"> gilang_aji_panutan@teknokrat.ac.id</a>
+                    <i class="fa-solid fa-at"></i> <a href="mailto:gilang_aji_panutan@teknokrat.ac.id" target="_blank" rel="noreferrer"> gilang_aji_panutan@teknokrat.ac.id</a>
+                </div>
+                <div class="contact__item contact__phone">
+                    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/gilang_ap16/" target="_blank" rel="noreferrer"> gilang_ap16</a>
                 </div>
                 <div class="contact__item contact__address">
                     <i class="fa-solid fa-location-dot"></i> Sepang Jaya, Labuhan Ratu, Bandar Lampung
